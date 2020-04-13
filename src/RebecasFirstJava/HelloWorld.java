@@ -11,12 +11,11 @@ public class HelloWorld {
         total=num1/num2;
         System.out.println("Impartirea numerelor este " + total);
         int calcul1, calcul2, calcul4;
-        float calcul3;
         calcul1=( -5 + 8 * 6);
         System.out.println("Rezultatul a) este " +calcul1);
         calcul2=((55+9) % 9);
         System.out.println("Rezultatul b) este " +calcul2);
-        calcul3 = (20 + ((-3 * 5) / 8));
+        float calcul3 = (20 + ((float)(-3 * 5) / 8));
         System.out.println("Rezultatul c) este " +calcul3);
         calcul4=(5 + 15 / 3 * 2 - 8 % 3);
         System.out.println("Rezultatul d) este " +calcul4);
