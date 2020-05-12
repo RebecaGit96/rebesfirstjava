@@ -54,6 +54,31 @@ public class Main {
         int number1=90;
         System.out.println(op.MediaNumerelor(number1));
 
+        int h=94;
+        op.MetodaWhile(h);
+
+        int v=100;
+        op.ReverseWhile(v);
+
+        int m=20;
+        int n=30;
+        op.CountingBetweenWhile(m,n);
+
+        int u=10;
+        int t=5;
+        op.ComparisonAnsCountingWhile(u,t);
+
+        int no=0;
+        op.NrPareWhile(no);
+
+        int on=0;
+        op.NrImpareWhile(on);
+
+        //int kl=111;
+      //  op.SumaIntervalului(kl);
+
+
+
     }}
 
 
