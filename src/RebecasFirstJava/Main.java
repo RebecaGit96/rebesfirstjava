@@ -29,6 +29,31 @@ public class Main {
 
         int w=10, y=22, z=3;
         System.out.println(op.ComparisonNumbers(w,y,z));
+
+        int i=85;
+       op.Counting(i);
+
+       int  first=100, second=85;
+        op.ReverseCounting(first, second);
+
+        int s=10, p=20;
+        op.CountingBetween(s,p);
+
+        int l=5, k=10;
+        op.ComparisonAndCounting(k,l);
+
+        int j=1;
+        op.NumerelePare(j);
+
+        int r=1;
+        op.NumereleImpare(r);
+
+        int number=95;
+        System.out.println(op.SumaNumerelor(number));
+
+        int number1=90;
+        System.out.println(op.MediaNumerelor(number1));
+
     }}
 
 
