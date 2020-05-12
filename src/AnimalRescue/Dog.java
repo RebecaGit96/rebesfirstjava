@@ -1,5 +1,5 @@
 package AnimalRescue;
-public class Dog {
+public class Dog extends Animal {
     private String name;
     private int age;
     private int health;
@@ -31,18 +31,6 @@ public class Dog {
     }
     public void setHunger(int hunger){
         this.hunger=hunger;
-    }
-    public int getMood(){
-        return mood;
-    }
-    public void setMood(int mood){
-        this.mood=mood;
-    }
-    public String getFavouriteFood(){
-        return favouriteFood;
-    }
-    public void setFavouriteFood(String favouriteFood){
-        this.favouriteFood=favouriteFood;
     }
     public String getFavouriteActivity(){
         return favouriteActivity;

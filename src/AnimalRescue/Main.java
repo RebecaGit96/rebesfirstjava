@@ -44,5 +44,11 @@ public class Main {
         v.setWork("healing");
         System.out.println(v.getName());
         System.out.println(v.getWork());
+
+        Cat cleo= new Cat();
+        cleo.setName("cleo");
+        
+        Dog oli=new Dog();
+        oli.setMood(3);
     }
 }
