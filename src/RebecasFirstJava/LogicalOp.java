@@ -1,5 +1,7 @@
 package RebecasFirstJava;
 
+import java.util.List;
+
 public class LogicalOp {
     public static int checkBiggerNumber(int first, int second) {
         if (first > second) {
@@ -217,21 +219,64 @@ public class LogicalOp {
         while (on <= 100);
         System.out.println();
     }
-    // public void SumaIntervalului (int kl) {
-    //   int count = 0;
-    //    int sum = 0;
-    //    int media = 0;
-    //   do {
-    //       System.out.print(kl + " ");
-    //      kl++;}
-    //  while (kl <= 8899);
-    //  sum = sum + kl;
-    //  System.out.println("suma este" + sum);
-    //      count = (8899 - 111);
-    //      media = sum / count;
-    //   System.out.println("media este" + media);}}
+
+    public void sumAndAverageWhile() {
+        int firstNumber = 111;
+        int secondNumber = 8899;
+        double sum = 0;
+        int count = 0;
+        while (firstNumber <= secondNumber) {
+            sum += firstNumber;
+            firstNumber++;
+            count++;
+        }
+        System.out.println(sum);
+        double average = sum / count;
+        System.out.println("The average of the numbers is: " + average);
+    }
+
+    public void printPattern() {
+        for (int j = 7; j >= 1; j--) {
+            String text = "";
+            for (int i = j; i >= 1; i--) {
+                text = text + "*";
+            }
+            System.out.println(text);
+        } }
+
+    public void MyArray (){
+         int[] MyArray=new int[100];
+         for(int i=0; i<100; i++) {
+             MyArray[i] = i + 1;
+        System.out.print(MyArray[i]+ " ");
+    }}
+
+    public void  addToList (List<Integer> myList, int qa){
+        myList.add(qa);
+    }
+    public void PrintList(List<Integer> list){
+        int position = 2;
+        for(int i = position; i<list.size(); i++){
+            System.out.println(list.get(i));
+        }
+    }
+    public void ReverseList (List<Integer> List){
+        for(int i=3; i>-1; i--)
+            System.out.println(List.get(i));
+    }
+    public void AddToMyList1 (List <String> Mylist1, int x, String y){
+        Mylist1.add(x, y);
+
+    }
+    public void MoveList(List<String> myList3, String name){
+        myList3.add(name);
+   }
 
 }
+
+
+
+
 
 
 

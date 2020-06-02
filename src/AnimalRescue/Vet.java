@@ -1,15 +1,10 @@
 package AnimalRescue;
 
-public class Vet {
+public class Vet extends Rescuer {
     private String name;
+    private long money;
     private String work;
 
-    public String getName(){
-        return name;
-    }
-    public void setName(String name){
-        this.name=name;
-    }
     public String getWork(){
         return work;
     }
@@ -17,4 +12,6 @@ public class Vet {
         this.work=work;
     }
 
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
 }

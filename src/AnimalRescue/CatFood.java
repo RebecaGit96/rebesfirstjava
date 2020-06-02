@@ -1,6 +1,6 @@
 package AnimalRescue;
 
-public class DogFood extends Food {
+public class CatFood extends Food {
     private String name;
     private int cost;
     private int amount;

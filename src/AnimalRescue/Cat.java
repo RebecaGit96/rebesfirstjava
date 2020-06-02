@@ -10,36 +10,6 @@ public class Cat extends Animal{
         private String favouriteActivity;
 
 
-        public int getHealth(){
-            return health;
-        }
-        public void setHealth(int health){
-            this.health=health;
-        }
-        public int getHunger(){
-            return hunger;
-        }
-        public void setHunger(int hunger){
-            this.hunger=hunger;
-        }
-        public int getMood(){
-            return mood;
-        }
-        public void setMood(int mood){
-            this.mood=mood;
-        }
-        public String getFavouriteFood(){
-            return favouriteFood;
-        }
-        public void setFavouriteFood(String favouriteFood){
-            this.favouriteFood=favouriteFood;
-        }
-        public String getFavouriteActivity(){
-            return favouriteActivity;
-        }
-        public void setFavouriteActivity(String favouriteActivity){
-            this.favouriteActivity=favouriteActivity;
-        }
     }
 
 

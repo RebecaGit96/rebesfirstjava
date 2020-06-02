@@ -74,8 +74,12 @@ public class Main {
         int on=0;
         op.NrImpareWhile(on);
 
-        //int kl=111;
-      //  op.SumaIntervalului(kl);
+        op.sumAndAverageWhile();
+
+        op.printPattern();
+
+         op.MyArray();
+
 
 
 
