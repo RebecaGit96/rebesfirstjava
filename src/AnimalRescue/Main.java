@@ -10,6 +10,10 @@ public class Main {
         myAnimal.setMood(100);
         myAnimal.setFavouriteFood("pedigree");
         myAnimal.setFavouriteActivity("running");
+        myAnimal.eat();
+        myAnimal.run();
+        myAnimal.sleep();
+
 
         System.out.println(myAnimal.getName());
         System.out.println(myAnimal.getAge());
@@ -18,6 +22,7 @@ public class Main {
         System.out.println(myAnimal.getMood());
         System.out.println(myAnimal.getFavouriteFood());
         System.out.println(myAnimal.getFavouriteActivity());
+
 
         Girl Girl= new Girl();
         Girl.setName("Rebeca");
@@ -50,6 +55,14 @@ public class Main {
 
         Dog oli=new Dog();
         oli.setMood(3);
+
+        Labrador Aiden= new Labrador();
+        Aiden.eat();
+        Aiden.sleep();
+
+        Bichon Mishu= new Bichon();
+        Mishu.sleep();
+        Mishu.run();
 
     }
 }
