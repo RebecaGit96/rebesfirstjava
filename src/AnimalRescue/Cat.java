@@ -1,6 +1,6 @@
 package AnimalRescue;
 
-public class Cat extends Animal{
+public abstract class Cat extends Animal{
         private String name;
         private int age;
         private int health;

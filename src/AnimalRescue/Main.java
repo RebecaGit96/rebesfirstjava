@@ -50,7 +50,22 @@ public class Main {
         System.out.println(v.getName());
         System.out.println(v.getWork());
 
-        Cat cleo= new Cat();
+        Cat cleo= new Cat() {
+            @Override
+            public void eat() {
+
+            }
+
+            @Override
+            public void run() {
+
+            }
+
+            @Override
+            public void sleep() {
+
+            }
+        };
         cleo.setName("cleo");
 
         Dog oli=new Dog();
